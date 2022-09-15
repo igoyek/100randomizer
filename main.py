@@ -9,5 +9,6 @@ while i < 100:
         table.append(x)
         i += 1
 
-print("In table are", table.count(0), "zeros")
-print(sum(table))
+print(table)
+print("Suma liczb parzystych wynosi: ", sum(table))
+print("Wylosowano", table.count(0), "zer ;)")
